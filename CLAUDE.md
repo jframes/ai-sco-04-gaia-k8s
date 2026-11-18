@@ -23,8 +23,8 @@ repository carry no Jira ID.
 - **`agis-kubernetes`**: a colleague's repository, reference only; do not change it.
 
 Local-only inputs that git ignores (e.g. `docker/score-reports/.env`, `svn_libs/`) are not
-cloned: copy them in from the previous workspace when a local image build needs them. Never
-print the content of `.env` files.
+cloned: they are added by hand when a local image build needs them. Never print the content of
+`.env` files.
 
 ## AI files in this workspace
 
