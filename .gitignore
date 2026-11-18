@@ -1,0 +1,11 @@
+# Everything cloned by bootstrap.sh (the work repositories) is tracked in its own
+# repository, not here: ignore all top-level entries except this repo's own files.
+/*
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/bootstrap.sh
+!/repos.list
+!/claude-md/
+!/.claude/
+/.claude/settings.local.json
